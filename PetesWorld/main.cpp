@@ -1,8 +1,8 @@
 // program to find countries in Pete's World
-// date November 2022
+// Date: 08/11/2024
 // author Pete Lowe
 // add your name here
-//  or here
+//  Milosz Kropielnicki
 // estimated time 120 minutes
 // actual time ??
 // version 1.0
