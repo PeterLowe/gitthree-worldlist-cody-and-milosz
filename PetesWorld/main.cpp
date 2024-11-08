@@ -86,23 +86,23 @@ int main()
 	{
 		if (region == 1)
 		{
-			std::cout << "" << std::endl;
+			std::cout << "Canada, Cayman islands, Chile, Colombia, Costa Rica, Cuba, " << std::endl;
 		}
 		if (region == 2)
 		{
-			std::cout << "" << std::endl;
+			std::cout << "Croatia, Czech Republic" << std::endl;
 		}
 		if (region == 3)
 		{
-			std::cout << "" << std::endl;
+			std::cout << "Cameroon, Cape Verde, Central African Republic, Chad, Comoros, Democratic Republic of the Congo, Congo, Republic of (Brazzaville), Côte D'ivoire (Ivory Coast)" << std::endl;
 		}
 		if (region == 4)
 		{
-			std::cout << "" << std::endl;
+			std::cout << "Cambodia, China, Christmas Island, Cocos (Keeling) Islands, Cyprus" << std::endl;
 		}
 		if (region == 5)
 		{
-			std::cout << "" << std::endl;
+			std::cout << "Cocos (Keeling) Islands, Cook Islands" << std::endl;
 		}
 
 
