@@ -36,25 +36,42 @@ int main()
 	{
 		if (region == 1)
 		{
-			std::cout << "Argentina" << std::endl;
+			std::cout << "Bahamas, Barbados, Belize, Bermuda, Bolivia" << std::endl;
 		}
 		if (region == 2)
 		{
-			std::cout << "Albania, Austria" << std::endl;
+			std::cout << "Belarus, Belgium, Bosnia, Herzegovina" << std::endl;
 		}
 		if (region == 3)
 		{
-			std::cout << "Algeria, Angola" << std::endl;
+			std::cout << "Benin, Botswana" << std::endl;
 		}
 		if (region == 4)
 		{
-			std::cout << "Afghanistan, Armenia, Azerbaijan" << std::endl;
+			std::cout << "Bangladesh, Bahrain Arabian Peninsula, Bhutan" << std::endl;
 		}
 		if (region == 5)
 		{
-			std::cout << "Australia, Antarctica, Aruba, Anguilla Leeward Islands, Antigua and Barbuda, American Samoa" << std::endl;
+			std::cout << "There are no Bs in rest of the world" << std::endl;
 		}
-	}	
+	}
+	if (letter == 'b' || letter == 'B') //written by Cody
+	{
+		if (region == 1)
+		{
+			std::cout << ""
+
+
+		}
+
+
+
+
+
+
+
+
+	}
 	if (letter == 'z' || letter == 'Z') // written by Pete
 	{
 		if (region == 1)
