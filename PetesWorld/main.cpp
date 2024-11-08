@@ -32,30 +32,55 @@ int main()
 			return 0; 
 		}		
 	}
-	if (letter == 'a' || letter == 'A') // written by Pete
+	if (letter == 'b' || letter == 'B') // written by Cody
 	{
 		if (region == 1)
 		{
-			std::cout << "Bahamas, Barbados, Belize, Bermuda, Bolivia" << std::endl;
+			std::cout << "Bahamas, Barbados, Belize, Bermuda, Bolivia, Brazil, " << std::endl;
 		}
 		if (region == 2)
 		{
-			std::cout << "Belarus, Belgium, Bosnia, Herzegovina" << std::endl;
+			std::cout << "Belarus, Belgium, Bosnia, Herzegovina, Bulgaria" << std::endl;
 		}
 		if (region == 3)
 		{
-			std::cout << "Benin, Botswana" << std::endl;
+			std::cout << "Benin, Botswana, Burkina Faso, Burundi" << std::endl;
 		}
 		if (region == 4)
 		{
-			std::cout << "Bangladesh, Bahrain Arabian Peninsula, Bhutan" << std::endl;
+			std::cout << "Bangladesh, Bahrain Arabian Peninsula, Bhutan, Brunei Darussalam, " << std::endl;
 		}
 		if (region == 5)
 		{
 			std::cout << "There are no Bs in rest of the world" << std::endl;
 		}
 	}
-<<<<<<< HEAD
+	if (letter == 'c' || letter == 'C') //written by cody
+	{
+		if (region == 1)
+		{
+			std::cout << "" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "" << std::endl;
+		}
+
+
+	}
+
 
 	if (letter == 'y' || letter == 'Y')
 	{
@@ -81,25 +106,6 @@ int main()
 		}
 	}
 
-=======
-	if (letter == 'b' || letter == 'B') //written by Cody
-	{
-		if (region == 1)
-		{
-			std::cout << ""
-
-
-		}
-
-
-
-
-
-
-
-
-	}
->>>>>>> bCody
 	if (letter == 'z' || letter == 'Z') // written by Pete
 	{
 		if (region == 1)
