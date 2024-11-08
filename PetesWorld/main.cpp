@@ -22,7 +22,7 @@ int main()
 		std::cout << "You need to select a number between 1 and 5" << std::endl;
 		return 0;
 	}
-	std::cout << "Pick a letter from A to A or Z to Y" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to B or Z to Y" << std::endl; // change this line each iteration
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
 	{ 
@@ -31,12 +31,38 @@ int main()
 			std::cout << "You need to select a letter from A to Z" << std::endl;
 			return 0; 
 		}		
+	
 	}
-	if (letter == 'b' || letter == 'B') // written by Cody
+
+	if (letter == 'a' || letter == 'A') // written by Pete
 	{
 		if (region == 1)
 		{
-			std::cout << "Bahamas, Barbados, Belize, Bermuda, Bolivia, Brazil, " << std::endl;
+			std::cout << "Argentina" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Albania, Austria" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Algeria, Angola" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Afghanistan, Armenia, Azerbaijan" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Australia, Antarctica, Aruba, Anguilla Leeward Islands, Antigua and Barbuda, American Samoa" << std::endl;
+		}
+	}
+	
+	if (letter == 'b' || letter == 'B') // written by Pete
+	{
+		if (region == 1)
+		{
+			std::cout << "Bahamas, Barbados, Belize, Bermuda, Bolivia" << std::endl;
 		}
 		if (region == 2)
 		{
@@ -55,6 +81,7 @@ int main()
 			std::cout << "There are no Bs in rest of the world" << std::endl;
 		}
 	}
+
 	if (letter == 'c' || letter == 'C') //written by cody
 	{
 		if (region == 1)
@@ -79,6 +106,32 @@ int main()
 		}
 
 
+	}
+
+
+
+	if (letter == 'x' || letter == 'X')
+	{
+		if (region == 1)
+		{
+			std::cout << "There are no Xs in the Americas" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "There are no Xs in Europe" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "There are no Xs in Africa" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "There are no Xs in Asia" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no Xs in the rest of the world" << std::endl;
+		}
 	}
 
 
