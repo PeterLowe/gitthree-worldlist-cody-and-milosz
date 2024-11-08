@@ -58,7 +58,7 @@ int main()
 		}
 	}
 	
-	if (letter == 'b' || letter == 'B') // written by Pete
+	if (letter == 'b' || letter == 'B') // written by cody
 	{
 		if (region == 1)
 		{
@@ -104,6 +104,35 @@ int main()
 		{
 			std::cout << "Cocos (Keeling) Islands, Cook Islands" << std::endl;
 		}
+
+
+	}
+	if (letter == 'd' || letter == 'D') //written by cody
+	{
+		if (region == 1)
+		{
+			std::cout << "Dominica, Dominican Republic" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "There are no Ds in Europe" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Djibouti" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "There are no Ds in Asia" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no Ds in the rest of the world" << std::endl;
+		}
+
+
+
+
 
 
 	}
