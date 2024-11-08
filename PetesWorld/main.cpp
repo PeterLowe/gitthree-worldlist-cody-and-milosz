@@ -1,7 +1,7 @@
 // program to find countries in Pete's World
 // Date: 08/11/2024
 // author Pete Lowe
-// add your name here
+// Cody Copperthwaite
 //  Milosz Kropielnicki
 // estimated time 120 minutes
 // actual time ??
